@@ -40,6 +40,132 @@ text-align: center;
 font-size: 1.25rem;
 font-weight: 600;
 }
+/* main */
+main{
+    max-width: 1440px;
+    margin: 70px auto;
+}
+.teams-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+   
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.features-content{
+   
+}
+.btn-1{
+  width: 180px; 
+color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+border-radius: 8px;
+background: #FF900E;
+padding: 20px 25px;
+margin-top: 32px;
+}
+.card-ftr{
+    border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.features-container{
+    display: flex;
+}
+.img-container img{
+    max-width: 90%;
+}
+.badge{
+    
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    position: relative;
+    bottom: 100px;
+}
+.badge p{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+}
+
+.facts-container{
+    display: flex;
+    justify-content: space-around;
+    color: #FFF;
+
+}
+
+.facts .facts-head{
+    color: var(--Dark-01, #131313);
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.facts .card-title{
+    color: var(--Dark-03, #727272);
+font-family: Work Sans;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.facts-container .card{
+    border-radius: 8px;
+border: 1px solid #FF900E;
+padding: 40px;
+text-align: center;
+}
+.facts-container .card-stats{
+    color: var(--Dark-02, #424242);
+    text-align: center;
+font-family: Work Sans;
+font-size: 2.90rem;
+font-weight: 600;
+margin-top: 5px;
+}
+.facts-container .card-title{
+    color: var(--Dark-03, #727272);
+text-align: center;
+font-family: Work Sans;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 5px;
+margin-bottom: 55px;
+}
+.sponsor{
+    text-align: center;
+    margin-top: 180px;
+}
+.sponsor-head{
+    margin-bottom: 30px;
+}
+.sponsor-para{
+    
+    margin-bottom: 50px;
+}
+.sponsor-img{
+    justify-content: space-evenly;
+    display: flex;
+    mix-blend-mode: luminosity;
+}
+   
 @media screen and (max-width: 576px) {
     header{
         padding: 20px;
